@@ -1,0 +1,83 @@
+.bg {
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-image: url("https://wallpapercave.com/wp/wp2539518.jpg");
+  height: 100vh;
+  z-index: -1;
+}
+form {
+  background: none;
+}
+.content {
+  /* border: 1px solid red; */
+  color: rgb(207, 176, 1);
+  text-align: center;
+  padding: 2px;
+  margin: 10px auto;
+  /* overflow: auto; */
+
+  height: auto;
+  align-items: center;
+  width: 80%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  backdrop-filter: blur(5px);
+
+  /* background-image: url("https://img.freepik.com/free-photo/abstract-luxury-clear-yellow-wall-well-use-as-backdrop-background-layout_1258-207.jpg?size=626&ext=jpg"); */
+}
+.textarea {
+  align-items: center;
+  margin: 10px auto;
+
+  display: grid;
+  font-family: 'Satisfy', cursive;
+
+  overflow: auto;
+  resize: none;
+  width: inherit;
+  font-size: x-large;
+}
+textarea {
+  resize: none;
+  line-height: 40px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 45px;
+  padding-bottom: 34px;
+  background-image: url(https://static.tumblr.com/maopbtg/E9Bmgtoht/lines.png),
+    url(https://static.tumblr.com/maopbtg/nBUmgtogx/paper.png);
+  background-repeat: repeat-y, repeat;
+  -webkit-border-radius: 12px;
+  border-radius: 12px;
+  -webkit-box-shadow: 0px 2px 14px #000;
+  box-shadow: 0px 2px 14px #000;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  color: rgb(0,15,85);
+}
+.titlearea {
+  align-items: center;
+  margin: 10px auto;
+  display: grid;
+  font-family: 'Satisfy', cursive;
+  overflow: auto;
+  resize: none;
+  width: inherit;
+  font-size:xx-large;
+  font-weight: bold;
+  text-transform: uppercase;
+  
+}
+
+input {
+    padding-left: 95px;
+    padding-right: 52px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+  background-image: url(https://static.tumblr.com/maopbtg/E9Bmgtoht/lines.png),
+    url(https://static.tumblr.com/maopbtg/nBUmgtogx/paper.png);
+}

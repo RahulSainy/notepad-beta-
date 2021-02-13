@@ -1,0 +1,30 @@
+<div class="bg">
+    <div class="content">
+      <h1>NotePad- Live</h1>
+      <div class="alert alert-primary" role="alert" style="text-align: left">
+        Your Saved Data
+      </div> 
+      <div class="btn">
+        <button type="submit" class="btn btn-success mr-2 " [disabled]="loadedNotes.length < 1"
+  (click)=' onClearNotes()'>Delete All Notes</button>
+        <button type="button" class="btn btn-warning">New</button>
+      </div>
+      <div >
+        <p *ngIf = "loadedNotes.length < 1" style="background-color: white;"> No Notes Available </p>
+        <ul class="list-group" *ngIf="loadedNotes.length >= 1">
+          <li class="list-group-item"  *ngFor="let note of loadedNotes">
+            <div style= "color: rgb(211, 205, 25);" id="display-notes">
+            <h3>{{ note.title }} </h3><hr>
+            <span style="font-size: xx-large; color: rgb(113, 113, 114);">{{ note.notes }}</span>
+            </div>
+          </li >
+        </ul>
+      </div>
+     
+    </div> 
+
+  </div>
+ 
+
+
+ 

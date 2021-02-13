@@ -1,0 +1,46 @@
+.bg {
+    height: 100vh;
+    overflow: auto;
+    width: 100vw;
+    margin: 0;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://i.imgur.com/81RTZEw.png");
+  }
+  .content{
+    /* border: 1px solid red; */
+    color: white;
+    text-align:center;
+    padding:2px;
+    margin:10px auto;
+        /* overflow: auto; */
+
+        height: auto;
+        align-items: center;
+        width: 80%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        backdrop-filter: blur(5px);
+    
+        /* background-image: url("https://img.freepik.com/free-photo/abstract-luxury-clear-yellow-wall-well-use-as-backdrop-background-layout_1258-207.jpg?size=626&ext=jpg"); */
+} 
+
+.form-align{
+    border-left-style: solid ;
+    border-color: gold;
+    height: auto;
+    border-width:5px;
+    background-color: rgba(56, 56, 58, 0.3);
+       display: block;
+    /* align-items: center; */
+    margin: auto;
+    padding-top: 2%;
+}
+
+input.ng-invalid.ng-touched{
+  border-left: 5px solid red;
+}
+.form-control.ng-valid{
+  border-left: 10px solid rgb(20, 199, 20);
+}
